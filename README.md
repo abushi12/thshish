@@ -1,2 +1,86 @@
-هادا الموقع لابن عمي عماد
-بس يلي بدو يشوف فيش مشكله
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>كل الجزر</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f0f0f0;
+            color: #111;
+        }
+
+        .container {
+            background-color: rgb(31, 120, 50);
+            border: 2px solid #000000;
+            padding: 20px;
+            color: white;
+        }
+
+        .bese {
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 50px;
+        }
+
+        .links {
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 8px 12px;
+            background-color: rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .links:hover {
+            background-color: #00cd00;
+        }
+
+        .header-links {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .footer-text {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bese header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0YitSrW9Qk0tDELVHpvDuQ0VxTlva1_UVow&s" width="400" alt="جزر">
+        <div>
+            <a class="links" href="https://www.aljazeera.net/wp-content/uploads/2019/11/dd2d2f34-9965-48a3-8c0f-861fa66f0eef.jpeg?resize=770%2C513&quality=80">كيف تتزانخ علا عماد بصوره</a>
+            <a class="links" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBBJRSF8-9uNtkpa-IgDHVo-FA6nbRfwkwA&s">كيف تعرف انك قهرت عماد</a>
+            <button class="header-links">اضغط هنا</button>
+        </div>
+    </div>
+
+    <div class="footer-text">
+        <a href="https://www.aljazeera.net/health/2020/2/6/%D9%81%D9%88%D8%A7%D8%A6%D8%AF-%D8%B5%D8%AD%D9%8A%D8%A9-%D9%85%D8%B0%D9%87%D9%84%D8%A9-%D9%84%D9%84%D8%AC%D8%B2%D8%B1-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%8A%D9%87%D8%A7-%D8%AC%D8%B2%D8%B1">
+            ابحث عن فوائد الجزر
+        </a>
+    </div>
+
+    <div class="footer-text">
+        <h1>كل جزر لانه مفيد الك يا مشطوب</h1>
+    </div>
+</body>
+</html>
